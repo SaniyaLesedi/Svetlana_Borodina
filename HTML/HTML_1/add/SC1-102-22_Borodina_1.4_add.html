@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <title>home_1.4_add</title> 
+    </head>
+    <style>
+        .color_red{	color: red	}
+        .color_blue{ color: blue }
+        .tab1 { margin-left: 117px; }
+        .underline{	text-decoration: underline;	}
+    </style>
+    <body>
+        <h1><center>Заголовок первого уровня</center></h1>
+        <h2>Предварительно форматированный текст:</h2>
+        <pre>
+         x | o |
+        ‐‐‐‐‐‐‐‐‐‐‐
+           | х |
+        ‐‐‐‐‐‐‐‐‐‐‐
+         o | x | o
+        </pre>
+        <hr style="border: 1px solid grey;">
+        <h2>Тег address</h2>
+        <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
+        <h2>Семантические и функциональные строчные теги</h2>
+        <p>Пожелания автора:</p>
+        <p><span class="color_red"><s class="color_red">Данный текст убрать из монографии</s></span> и заменить его на <ins class="color_blue"><span class="color_blue">вновь помещённый текст</span></ins>.</p>
+        <h2>Работа со строчными и блоковыми цитатами</h2>
+        <p>
+            Цитата короткая:<br>
+            <cite>И всётаки она вертится!</cite>
+        </p>
+        <p>Цитата занимающая несколько предложений:</p>
+        <blockquote>
+            О сколько нам открытий чудных<br>
+            Готовят просвещенья дух<br>
+            И опыт, сын ошибок трудных,<br>
+            И гений, парадоксов друг,<br>
+            И случай, бог изобретатель...
+        </blockquote>
+        <hr style="border: 1px solid grey;">
+        <h2>Семантические и функциональные строчные теги</h2>
+        <p><strong>Тэг &#60;STRONG&#62; делает данный фрагмент текста более важным.</strong> <i>Тэг &#60;em&#62; менее важным.</i>>
+            В то время как теги &#60;b&#62; и &#60;i&#62; делают текст просто полужирным и курсивом соответственно.</p>
+        <hr style="border: 1px solid grey;">
+        <h2>Теги форматирования машинного языка</h2>
+        <p>При выполнении программного кода на языке PERL:</p>
+        <code>
+            #!/usr/local/bin/perl<br>
+print "Content‐type: text/html\n\n";<br>
+print "&#60;H1&#62;Hello World&#60;/H1&#62;\n";<br>
+        </code>
+        <p>Программа выведет:</p>
+        <code>Hello, World!</code>
+        <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
+        <h1>Hello, World!</h1>
+        <hr style="border: 1px solid grey;">
+        <h2>Комментарии и литералы(мнемоники) в HTML</h2>
+        <code>
+            &#60;!‐‐ это комментарий ‐‐&#62;<br>
+            <span class="tab1">&#60;!‐‐ и это также комментарий,</span><br>
+            <span class="tab1">занимающий более одной строки ‐‐&#62;</span>
+        </code>
+        <hr style="border: 1px solid grey;">
+        <h2>Теги над и подстрочных символов</h2>
+        <p><center><b>Магазин работает:</b></center></p>
+        <p><center>c 08<sap class="underline">30</sap> до 18<sap class="underline">30</sap></center></p>
+    </body>
+</html>
