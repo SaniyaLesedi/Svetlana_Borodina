@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8"> 
+        <title>02_CSS_1</title>
+        <style>
+            .pack{
+                background-color: rgb(145, 221, 149);
+            }
+            .nav{
+                width: 15em;
+                background-color: rgb(103, 151, 173);
+                float: left;
+            }
+            .art{
+                background-color: rgb(232, 16, 240);
+                margin-bottom: 0.2em;
+                margin-left: 15em;
+                white-space: pre-line;
+            }
+            img{
+                width: 80px;
+                height: 80px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pack">
+            <div class="nav">
+                <strong>Блок навигации</strong>
+                <ul>
+                    <li>Ширина 15em</li>
+                    <li>Должен присутствовать цвет фона</li>
+                    <li>Располагается слева</li>
+                    <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+                </ul>
+            </div>
+            <div class="art">
+                <strong>Статья 1</strong>
+                Размер блока:
+                Занимает всю доступную ширину
+                Должен присутствовать цвет фона
+                Во всех "статьях" сделайте отступ снизу от соседней равным .2em, при помощи свойства margin-bottom
+            </div>
+            <div class="art">
+                <strong>Статья 2</strong>
+                Размер блока:
+                Занимает всю доступную ширину
+                Должен присутствовать цвет фона
+                Во всех "статьях" сделайте отступ снизу от соседней равным .2em, при помощи свойства margin-bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки.
+                <img src="email-icon.png">
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+        <div style="background-color: rgb(232, 16, 240)">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.</div>
+    </body>
+</html>
